@@ -10,7 +10,7 @@ import com.example.todo_api.repository.UserRepository;
 
 @RestController
 @RequestMapping("/users")
-public class PostController {
+public class UserController {
 
     @Autowired
     private UserRepository userRepository;
